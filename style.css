@@ -102,3 +102,18 @@ body{
 button img{
     width: 20px;
 }
+@media (max-width: 600px) {
+    .quote-box {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .quote-box button {
+        width: 120px;
+        height: 40px;
+    }
+
+    .quote-box span {
+        margin-top: 20px;
+    }
+}
